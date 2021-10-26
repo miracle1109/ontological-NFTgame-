@@ -14,6 +14,7 @@
     <link href='https://fonts.googleapis.com/css?family=Rubik:400,700,700i' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href='https://leapn.life/style.css' />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen" href="css/particle-style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -85,108 +86,68 @@
             </div>
         </header>
         <div id="content" class="site-content center-relative">
-            <div id="home" class="section no-page-title container-fluid">
-                <div class="video-wrapper">
-                    <video class="portal_video" playsinline autoplay muted loop>
-                        <source src="https://leapn.life/images/portal.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="section-wrapper block content-1170 center-relative">
-                    <div class="content-wrapper">
-                        <h1 class="home_h1">
-                            <b class="home_leapn"><i>Welcome to<br>Ontological Game</i></b>
-                        </h1>
-                        <div class="homeBack">
-                            <h2 class="home_leapn2">The Labyrinthine Unreal</h2>
-                            <div class="container">
-                                <div class="labyrinthine row">
-                                    <div class="col-md-6 col-xs-12">
-                                        <img src="{{ asset('assets/images/symbol.png') }}" class="img-circle" />
+            <div id="home" class="section no-page-title">
+                <div id="particles-js">
+                    <div class="section-wrapper block content-1170 center-relative">
+                        <div class="content-wrapper">
+                            <!-- <h1 class="home_h1">
+                                <b class="home_leapn"><i>Welcome to<br>Ontological Game</i></b>
+                            </h1> -->
+                            <div class="homeBack">
+                                <h2 class="home_leapn2">The Labyrinthine Unreal</h2>
+                                <div class="container">
+                                    <div class="labyrinthine labyrinthine-first row">
+                                        <div class="col-md-6 col-xs-12">
+                                            <img src="{{ asset('assets/images/symbol.gif') }}" class="img-circle" />
+                                        </div>
+                                        <div class="col-md-6 col-xs-12">
+                                        </div>
                                     </div>
-                                    <div class="col-md-6 col-xs-12">
-                                        <p>
-                                            What is real? This age-old intensely debated question is often given
-                                            some of the most surprisingly roughhewn answers. Many people, when asked,
-                                            will simply enumerate whatever random objects lie within their field of
-                                            vision,
-                                            "the grass, the tree, the roof is real". Obviously, this type of eisegesis
-                                            does not
-                                            say much and ultimately subjects the real to the object instead of
-                                            explaining what it
-                                            is that makes the object real. It is a sort of delegated, or circular and
-                                            generally
-                                            unconscious, solipsism: You see an external object, and the fact that see it
-                                            validates
-                                            reality. If others see it too, it further cements your belief in the real.
-                                            This is the
-                                            essence of the 'appeal to the people'(argumentum ad populum) fallacy, and in
-                                            this case
-                                            one can see and understand exactly its appeal and how it arises.
-                                        </p>
+                                    <div class="labyrinthine labyrinthine-second row">
+                                        <div class="col-md-6 col-xs-12 col-md-push-6">
+                                            <img src="{{ asset('assets/images/symbol.gif') }}" class="img-circle" /><br>
+                                            <!-- <img src="{{ asset('assets/images/symbol.gif') }}" class="img-circle" /> -->
+                                        </div>
+                                        <div class="col-md-6 col-xs-12 col-md-pull-6">
+                                            <p class="main-labyrinthine-text" style="text-align: left">
+                                                In certain heightened or intoxicated states, however, this complacent
+                                                fallacy quickly falls apart.
+                                                One may be tempted to wave away these states of consciousness as articially
+                                                induced chemical reactions.
+                                                But everything in our brain is a chemical reaction, the so-called normal
+                                                state of mind being simply the
+                                                defaultor factory condition. In any case one does not need to ingest
+                                                anything dubious to achieve the
+                                                same results. This is often true also of certain soliditary spaces. A cave,
+                                                a cell, a dungeion.
+                                                All these confined spaces have one thing in common. By severely restricting
+                                                freedom of movement, they
+                                                take on the ominous character of a claustrophobic universe closing in on you
+                                                with its inescapable iron
+                                                laws. Here you do not have the luxury of agreement with the world and its
+                                                clloective thinking.
+                                                The majority and their reality (if they even exist) are the enemy. This is a
+                                                space either of sheer madness
+                                                and creativity or sufffocation and slow death. This is the labyrinthine
+                                                unreal where the mind becomes a twisted
+                                                extension of space, exerting an irresistible pull upon the chance visitor,
+                                                but with its lurking dangers also-one
+                                                cannot pierce its secrets without first opening up to the same abyssal
+                                                descent.
+                                            </p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="labyrinthine row">
-                                    <div class="col-md-6 col-xs-12 col-md-push-6">
-                                        <img src="{{ asset('assets/images/symbol.png') }}" class="img-circle" />
-                                    </div>
-                                    <div class="col-md-6 col-xs-12 col-md-pull-6">
-                                        <p style="text-align: left">
-                                            In certain heightened or intoxicated states, however, this complacent
-                                            fallacy quickly falls apart.
-                                            One may be tempted to wave away these states of consciousness as articially
-                                            induced chemical reactions.
-                                            But everything in our brain is a chemical reaction, the so-called normal
-                                            state of mind being simply the
-                                            defaultor factory condition. In any case one does not need to ingest
-                                            anything dubious to achieve the
-                                            same results. This is often true also of certain soliditary spaces. A cave,
-                                            a cell, a dungeion.
-                                            All these confined spaces have one thing in common. By severely restricting
-                                            freedom of movement, they
-                                            take on the ominous character of a claustrophobic universe closing in on you
-                                            with its inescapable iron
-                                            laws. Here you do not have the luxury of agreement with the world and its
-                                            clloective thinking.
-                                            The majority and their reality (if they even exist) are the enemy. This is a
-                                            space either of sheer madness
-                                            and creativity or sufffocation and slow death. This is the labyrinthine
-                                            unreal where the mind becomes a twisted
-                                            extension of space, exerting an irresistible pull upon the chance visitor,
-                                            but with its lurking dangers also-one
-                                            cannot pierce its secrets without first opening up to the same abyssal
-                                            descent.
-                                        </p>
+                                    <div class="labyrinthine labyrinthine-third row">
+                                        <div class="col-md-6 col-xs-12">
+                                            <img src="{{ asset('assets/images/symbol.gif') }}" class="img-circle" />
+                                        </div>
+                                        <div class="col-md-6 col-xs-12">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="labyrinthine row">
-                                    <div class="col-md-6 col-xs-12">
-                                        <img src="{{ asset('assets/images/symbol.png') }}" class="img-circle" />
-                                    </div>
-                                    <div class="col-md-6 col-xs-12">
-                                        <p>
-                                            The labyrinth is an aesthetic space where fiction and truth, illusion and
-                                            reality collide and collude.
-                                            It is an enchanced artifact, and architectural game matrix of confinement
-                                            and escape, of orientation
-                                            and disorientaion, captivating the mind no less than the body. It is said
-                                            that the Minotaur was imprisoned
-                                            in the underground labyrinth of king Mino's palace not by how difficult it
-                                            was to navigate, but because he
-                                            never wanted to leave its enchanted garden.
-                                        </p>
-                                    </div>
-                                </div>
+                                <!-- <h2 class="home_leapn3"><b class="home_leapn4">Mint a Founders Deed</b> to birth your world</h2> -->
                             </div>
-                            <!-- <h2 class="home_leapn3"><b class="home_leapn4">Mint a Founders Deed</b> to birth your world</h2> -->
                         </div>
-                        <!-- <div class="button-holder text-left"
-                            style="position: absolute; left: 0; margin-left: 50%; transform: translate(-50%, 0%);">
-                            <a href="#contact" class="button"
-                                style="font-size: 40px; font-weight: 900; padding: 20px 35px;">Contact Us</a>
-                        </div> -->
-                        <br>
-                        <br>
-                        <br>
                     </div>
                 </div>
             </div>
@@ -718,23 +679,114 @@
     <script src="/js/metamask-onboarding.bundle.js" defer></script>
     <script src="/js/minting.js" defer></script>
     <script src="/js/ABI.js" defer></script>
+    <script src="/js/particles.js"></script>
+    <script src="/js/stats.js"></script>
+    <script src="/js/app.js"></script>
     <script>
-        $(".homeBack .labyrinthine img").mouseenter(function() {
-            $(this).parent().parent().children().last().children().css({
+        $(".homeBack .labyrinthine-first img").mouseenter(function() {
+            $('.main-labyrinthine-text').text('');
+            $('.main-labyrinthine-text').text(`What is real? This age-old intensely debated question is often given
+                                                some of the most surprisingly roughhewn answers. Many people, when asked,
+                                                will simply enumerate whatever random objects lie within their field of
+                                                vision,
+                                                "the grass, the tree, the roof is real". Obviously, this type of eisegesis
+                                                does not
+                                                say much and ultimately subjects the real to the object instead of
+                                                explaining what it
+                                                is that makes the object real. It is a sort of delegated, or circular and
+                                                generally
+                                                unconscious, solipsism: You see an external object, and the fact that see it
+                                                validates
+                                                reality. If others see it too, it further cements your belief in the real.
+                                                This is the
+                                                essence of the 'appeal to the people'(argumentum ad populum) fallacy, and in
+                                                this case
+                                                one can see and understand exactly its appeal and how it arises.`);
+            $('.main-labyrinthine-text').css({
                 'display': 'block',
                 'animation-name': 'description-up',
                 'animation-duration': '1s',
                 'transform': 'scale(1,1)'
             })
         });
-        $(".homeBack .labyrinthine img").mouseleave(function() {
-            $(this).parent().parent().children().last().children().css({
+        $(".homeBack .labyrinthine-second img").mouseenter(function() {
+            $('.main-labyrinthine-text').text('');
+            $('.main-labyrinthine-text').text(`In certain heightened or intoxicated states, however, this complacent
+                                                fallacy quickly falls apart.
+                                                One may be tempted to wave away these states of consciousness as articially
+                                                induced chemical reactions.
+                                                But everything in our brain is a chemical reaction, the so-called normal
+                                                state of mind being simply the
+                                                defaultor factory condition. In any case one does not need to ingest
+                                                anything dubious to achieve the
+                                                same results. This is often true also of certain soliditary spaces. A cave,
+                                                a cell, a dungeion.
+                                                All these confined spaces have one thing in common. By severely restricting
+                                                freedom of movement, they
+                                                take on the ominous character of a claustrophobic universe closing in on you
+                                                with its inescapable iron
+                                                laws. Here you do not have the luxury of agreement with the world and its
+                                                clloective thinking.
+                                                The majority and their reality (if they even exist) are the enemy. This is a
+                                                space either of sheer madness
+                                                and creativity or sufffocation and slow death. This is the labyrinthine
+                                                unreal where the mind becomes a twisted
+                                                extension of space, exerting an irresistible pull upon the chance visitor,
+                                                but with its lurking dangers also-one
+                                                cannot pierce its secrets without first opening up to the same abyssal
+                                                descent.`);
+            $('.main-labyrinthine-text').css({
+                'display': 'block',
+                'animation-name': 'description-up',
+                'animation-duration': '1s',
+                'transform': 'scale(1,1)'
+            });
+        });
+        $(".homeBack .labyrinthine-third img").mouseenter(function() {
+            $('.main-labyrinthine-text').text('');
+            $('.main-labyrinthine-text').text(`The labyrinth is an aesthetic space where fiction and truth, illusion and
+                                                reality collide and collude.
+                                                It is an enchanced artifact, and architectural game matrix of confinement
+                                                and escape, of orientation
+                                                and disorientaion, captivating the mind no less than the body. It is said
+                                                that the Minotaur was imprisoned
+                                                in the underground labyrinth of king Mino's palace not by how difficult it
+                                                was to navigate, but because he
+                                                never wanted to leave its enchanted garden.`);
+            $('.main-labyrinthine-text').css({
+                'display': 'block',
+                'animation-name': 'description-up',
+                'animation-duration': '1s',
+                'transform': 'scale(1,1)'
+            })
+        });
+        $(".homeBack .labyrinthine img").mouseleave(function(e) {
+            
+            $('.main-labyrinthine-text').css({
                 'display': 'none',
                 'animation-name': 'description-down',
                 'animation-duration': '1s',
                 'transform': 'scale(0,0)'
-            })
+            });
         });
+
+        var count_particles, stats, update;
+        stats = new Stats;
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.left = '0px';
+        stats.domElement.style.top = '0px';
+        document.body.appendChild(stats.domElement);
+        count_particles = document.querySelector('.js-count-particles');
+        update = function() {
+            stats.begin();
+            stats.end();
+            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+            }
+            requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
     </script>
 </body>
 

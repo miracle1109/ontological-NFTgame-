@@ -152,6 +152,7 @@ Custom CSS For @media Mobile Class Alterations
   font-weight: 100;
   text-align: center;
   color: white;
+  margin-bottom: 30px;
 }
 
 .home_leapn3 {
@@ -164,9 +165,13 @@ Custom CSS For @media Mobile Class Alterations
 }
 
 /*winner*/
+#particles-js {
+  height: 892px !important;
+}
+
 #home {
-  padding-bottom: 20px;
-  padding-top: 100px;
+  /* padding-bottom: 20px;
+  padding-top: 50px; */
 }
 .homeBack .labyrinthine {
   margin-bottom: 20px;
@@ -204,9 +209,14 @@ Custom CSS For @media Mobile Class Alterations
 
 .homeBack .labyrinthine img {
   cursor: pointer;
+  width: 36%;
 }
 
 .homeBack .labyrinthine:nth-child(2) {
+  text-align: center;
+}
+.homeBack .labyrinthine:first-child,
+.homeBack .labyrinthine:last-child {
   text-align: right;
 }
 
@@ -249,6 +259,9 @@ Custom CSS For @media Mobile Class Alterations
   }
   #home .homeBack .labyrinthine:last-child p {
     padding-top: 88px;
+  }
+  #home .main-labyrinthine-text {
+    margin-right: -183px;
   }
 }
 
@@ -562,7 +575,7 @@ Custom CSS For @media Mobile Class Alterations
     font-size: 40px;
     line-height: 50px;
     width: 100%;
-    margin-bottom: 1px;
+    margin-bottom: 30px !important;
   }
 
   .home_leapn3 {
@@ -1535,6 +1548,7 @@ a.button-dot:hover:before {
 }
 
 #home .section-wrapper {
+  position: absolute;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
