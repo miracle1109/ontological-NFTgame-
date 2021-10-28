@@ -671,10 +671,6 @@ margin-top: 100px;
   #text_faq {
     margin-top: 80px;
   }
-
-  /* #millstones {
-    background-image: url("https://leapn.life/images/roadmap_mobile.png");
-  } */
 }
 
 /* ===================================
@@ -766,6 +762,7 @@ body pre {
   position: fixed;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
+  padding: 0px 20px 0px 15px;
 }
 
 .sticky-wrapper {
@@ -773,8 +770,6 @@ body pre {
 }
 
 .menu-wrapper {
-  width: 98%;
-  max-width: 1450px;
   min-height: 77px;
 }
 
@@ -908,6 +903,8 @@ body .sm-clean .mintButton:hover {
 
 .sm-clean li {
   margin-right: 10px;
+  float: left;
+  margin-top: 11px;
 }
 
 .sm-clean li:last-child {
@@ -1162,7 +1159,6 @@ body .social a:hover {
     2.3 Columns CSS
 ====================================== */
 
-.one_half,
 .one_third,
 .two_third,
 .three_fourth,
@@ -1181,7 +1177,6 @@ body .social a:hover {
 .one {
   display: block;
   clear: both;
-  margin-bottom: 30px;
 }
 
 .one_half {
@@ -2101,7 +2096,6 @@ h1.big-text {
 }
 
 .member-info {
-  width: 81%;
   background-color: #000000bb;
   padding: 65px 110px;
   display: inline-block;

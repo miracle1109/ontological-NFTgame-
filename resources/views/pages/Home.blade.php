@@ -10,9 +10,7 @@
     <meta name="author" content="@ferb7nft" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" />
-    <link rel="icon" type="image/png" href="https://leapn.life/assets/small_icon.png" />
     <link href='https://fonts.googleapis.com/css?family=Rubik:400,700,700i' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href='https://leapn.life/style.css' />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen" href="css/particle-style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -23,9 +21,6 @@
 
 <body class="page-template-onepage">
     <div class="site-wrapper">
-        <!-- <div class="doc-loader">
-                <img src="https://leapn.life/images/leapn_loading.gif" alt="Seppo" loading="lazy">
-            </div> -->
         <header class="header-holder">
             <div class="menu-wrapper center-relative relative">
                 <div class="header-logo">
@@ -115,7 +110,7 @@
                             About
                         </h3>
                     </div>
-                    <div class="section-wrapper block content-1170 center-relative">
+                    <div class="section-wrapper block center-relative">
                         <div class="content-wrapper">
                             <div class="member member-left">
                                 <!-- <img src="{{ asset('assets/images/about-step.jpg') }}"
@@ -348,7 +343,7 @@
                         TEAM
                     </h3>
                 </div>
-                <div class="section-wrapper block content-1170 center-relative teamTop" style="padding-top: 0px; margin-top: 0px;">
+                <div class="section-wrapper block center-relative teamTop" style="padding-top: 0px; margin-top: 0px;">
                     <div class="content-wrapper">
                         <div class="member member-left team-top">
                             <img src="{{asset('assets/images/avatar-1.png')}}" data-threshold="0 0" data-jarallax-element="60 0" style="height: 230px; width: 230px; border-radius: 200px / 200px; margin-right: 90px; margin-left: 20px;" alt="" loading="lazy" />
@@ -365,7 +360,6 @@
                         </div>
                         <br>
                         <div class="member big-screen member-right">
-                            <img class="image-top" style="height: 300px; width: 300px; display: none;" src="https://leapn.life/images/wickeddig.jpeg" alt="" data-threshold="0 0" data-jarallax-element="60 0" loading="lazy"/>
                             <div class="member-info-team" style="padding-bottom: 20px; margin-bottom: 10px; background-color: transparent;">
                                 <p class="member-postition">CREATIVE MANAGER</p>
                                 <h5 class="member-name" style="color: white">Elytron Frass</h5>
@@ -393,7 +387,6 @@
                             </div>
                         </div>
                         <div class="member big-screen member-right">
-                            <img class="image-top" style="height: 300px; width: 300px; display: none;" src="https://leapn.life/images/wickeddig.jpeg" alt="" data-threshold="0 0" data-jarallax-element="60 0" loading="lazy"/>
                             <div class="member-info-team" style="padding-bottom: 20px; margin-bottom: 10px; background-color: transparent;">
                                 <p class="member-postition">DEVELOPER</p>
                                 <h5 class="member-name" style="color: white">Minoru Aoki</h5>
@@ -472,10 +465,12 @@
                                         </div>
                                         <div id="status">Please connect your wallet to mint</div>
                                     </div>
-                                </h3> -->
+                                </sh3> -->
                             </div>
                         </div>
-                        <div class="clear"></div>
+                        <div class="clear">
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -518,18 +513,8 @@
         </footer>
     </div>
     <!--Load JavaScript-->
-    <script src="https://leapn.life/js/jquery.js"></script>
-    <script src="https://leapn.life/js/jquery.sticky.js"></script>
-    <script src="https://leapn.life/js/tipper.js"></script>
-    <script src="https://leapn.life/js/jarallax.js"></script>
-    <script src="https://leapn.life/js/jarallax-element.min.js"></script>
-    <script src='https://leapn.life/js/imagesloaded.pkgd.js'></script>
-    <script src='https://leapn.life/js/jquery.fitvids.js'></script>
-    <script src='https://leapn.life/js/jquery.smartmenus.min.js'></script>
-    <script src='https://leapn.life/js/isotope.pkgd.js'></script>
-    <script src='https://leapn.life/js/owl.carousel.min.js'></script>
-    <script src='https://leapn.life/js/jquery.sticky-kit.min.js'></script>
-    <script src='https://leapn.life/js/main.js'></script>
+    <script src="{{asset('/js/jarallax.js')}}"></script>
+    <script src="{{asset('/js/jarallax-element.min.js')}}"></script>
     <script defer src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
     <script src="/js/metamask-onboarding.bundle.js" defer></script>
     <script src="/js/minting.js" defer></script>
