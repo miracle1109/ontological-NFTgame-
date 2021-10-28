@@ -83,7 +83,7 @@
                     </video>
                 </div>
                 <div class="section-wrapper block content-1170 center-relative">
-                    <div class="content-wrapper">
+                    <div class="content-wrapper" data-threshold="90 0" data-jarallax-element="0 90">
                         <h1 class="home_h1">
                             <b class="home_leapn"><i>Welcome to<br>Labyrinthine Unreal</i></b>
                         </h1>
@@ -116,7 +116,7 @@
                                 <!-- <img src="{{ asset('assets/images/about-step.jpg') }}"
                                     style="height: 400px; width: 400px; border-radius: 30px / 30px;" alt=""
                                     data-threshold="0 0" data-jarallax-element="60 0" loading="lazy" /> -->
-                                <div class="member-info" data-threshold="90 0" data-jarallax-element="0 90">
+                                <div class="member-info" data-threshold="150 90" data-jarallax-element="90 150">
                                     <h5 class="member-name" style="">
                                         The Labyrinthine Unreal is a unique blend of interactive theory fiction,<br>
                                         exitentialist role play, and Labyrinthine puzzzle solving based within the <br>
@@ -369,7 +369,7 @@
                         <div class="member member-right-image">
                             <div class="row">
                                 <div class="col-md-6 col-md-push-6">
-                                <img class="image-right" src="{{asset('assets/images/avatar-2.png')}}" alt="" loading="lazy"/>
+                                    <img class="image-right" style="margin-left:-52px" src="{{asset('assets/images/avatar-2.png')}}" alt="" loading="lazy"/>
                                 </div>
                                 <div class="col-md-6 col-md-pull-6">
                                     <div class="member-info-team">
@@ -407,7 +407,7 @@
                         <div class="member member-right-image">
                             <div class="row">
                                 <div class="col-md-6 col-md-push-6">
-                                    <img src="{{asset('assets/images/avatar-4.jpg')}}" class="image-right" alt="" loading="lazy"/>
+                                    <img src="{{asset('assets/images/avatar-4.jpg')}}" style="margin-left:-52px" class="image-right" alt="" loading="lazy"/>
                                 </div>
                                 <div class="col-md-6 col-md-pull-6">
                                     <div class="member-info-team" style="">

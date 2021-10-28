@@ -290,7 +290,7 @@ Custom CSS For @media Mobile Class Alterations
 #about .member.member-left {
   display: flex;
   justify-content: center;
-  margin: 135px 0px;
+  margin: 0;
 }
 
 #millstones .milestone-text.text-header {
@@ -344,6 +344,12 @@ Custom CSS For @media Mobile Class Alterations
   #team .member-info-team {
     text-align: center;
   }
+}
+
+footer img:last-child {
+  width: 123px;
+  height: 84px;
+  margin-top: 24px;
 }
 
 /*winner*/
@@ -1718,6 +1724,14 @@ h1.big-text {
   background-position: right center;
   background-repeat: no-repeat;
   background-size: auto;
+  min-height: calc(100vh - 70px);
+}
+
+#about .section-wrapper {
+  min-height: calc(100vh - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ===================================
@@ -2904,7 +2918,7 @@ footer ul {
 }
 
 .footer-content {
-  width: 900px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
