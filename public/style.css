@@ -345,8 +345,8 @@ Custom CSS For @media Mobile Class Alterations
 }
 
 @media screen and (max-width: 736px) {
-  #team .member-info-team {
-    text-align: center;
+  #team .member:last-child .col-md-6:first-child img {
+    margin-left: 20px !important;
   }
 }
 
