@@ -116,7 +116,7 @@
                                 <!-- <img src="{{ asset('assets/images/about-step.jpg') }}"
                                     style="height: 400px; width: 400px; border-radius: 30px / 30px;" alt=""
                                     data-threshold="0 0" data-jarallax-element="60 0" loading="lazy" /> -->
-                                <div class="member-info" data-threshold="200 460" data-jarallax-element="90 300">
+                                <div class="member-info" data-threshold="300 460" data-jarallax-element="0 300">
                                     <h5 class="member-name" style="">
                                         The Labyrinthine Unreal is a unique blend of interactive theory fiction,<br>
                                         exitentialist role play, and Labyrinthine puzzzle solving based within the <br>
