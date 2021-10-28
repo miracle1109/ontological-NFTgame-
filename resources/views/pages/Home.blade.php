@@ -83,7 +83,7 @@
                     </video>
                 </div>
                 <div class="section-wrapper block content-1170 center-relative">
-                    <div class="content-wrapper" data-threshold="90 0" data-jarallax-element="0 90">
+                    <div class="content-wrapper">
                         <h1 class="home_h1">
                             <b class="home_leapn"><i>Welcome to<br>Labyrinthine Unreal</i></b>
                         </h1>
@@ -116,7 +116,7 @@
                                 <!-- <img src="{{ asset('assets/images/about-step.jpg') }}"
                                     style="height: 400px; width: 400px; border-radius: 30px / 30px;" alt=""
                                     data-threshold="0 0" data-jarallax-element="60 0" loading="lazy" /> -->
-                                <div class="member-info" data-threshold="150 90" data-jarallax-element="90 150">
+                                <div class="member-info" data-threshold="200 460" data-jarallax-element="90 300">
                                     <h5 class="member-name" style="">
                                         The Labyrinthine Unreal is a unique blend of interactive theory fiction,<br>
                                         exitentialist role play, and Labyrinthine puzzzle solving based within the <br>
@@ -544,7 +544,6 @@
     <script src="{{asset('/js/jquery.fitvids.js')}}"></script>
     <script src="{{asset('/js/jquery.smartmenus.min.js')}}"></script>
     <script src="{{asset('/js/jquery.sticky-kit.min.js')}}"></script>
-    
     <script src="{{asset('/js/jarallax.js')}}"></script>
     <script src="{{asset('/js/jarallax-element.min.js')}}"></script>
     <script src="{{asset('/js/main.js')}}"></script>
@@ -643,23 +642,27 @@
             });
         });
 
-        var count_particles, stats, update;
-        stats = new Stats;
-        stats.setMode(0);
-        stats.domElement.style.position = 'absolute';
-        stats.domElement.style.left = '0px';
-        stats.domElement.style.top = '0px';
-        document.body.appendChild(stats.domElement);
-        count_particles = document.querySelector('.js-count-particles');
-        update = function() {
-            stats.begin();
-            stats.end();
-            if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-            }
-            requestAnimationFrame(update);
-        };
-        requestAnimationFrame(update);
+        $(window).on('load', function() {
+            $('#home .content-wrapper').css({'display':'block', 'animation-name':'description-up', 'animation-duration': '1s'}); 
+        });
+
+        // var count_particles, stats, update;
+        // stats = new Stats;
+        // stats.setMode(0);
+        // stats.domElement.style.position = 'absolute';
+        // stats.domElement.style.left = '0px';
+        // stats.domElement.style.top = '0px';
+        // document.body.appendChild(stats.domElement);
+        // count_particles = document.querySelector('.js-count-particles');
+        // update = function() {
+        //     stats.begin();
+        //     stats.end();
+        //     if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+        //     count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        //     }
+        //     requestAnimationFrame(update);
+        // };
+        // requestAnimationFrame(update);
     </script>
 </body>
 
