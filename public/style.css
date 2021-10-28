@@ -110,7 +110,7 @@ Custom CSS For @media Mobile Class Alterations
   text-align: center;
   margin-left: 50%;
   transform: translate(-50%, 0%);
-  color: white;
+  color: #c3b135;
   line-height: 60px;
   padding-bottom: 0;
 }
@@ -118,7 +118,7 @@ Custom CSS For @media Mobile Class Alterations
 .selloutPercent-description {
   text-align: center;
   font-size: 26px;
-  color: white;
+  color: #c3b135;
 }
 
 .home_h1 {
@@ -224,15 +224,15 @@ Custom CSS For @media Mobile Class Alterations
   padding-top: 100px;
 }
 
-#contact .contact-email,
-#contact .contact-twitter {
+#mint .contact-email,
+#mint .contact-twitter {
   color: white;
   display: flex;
   justify-content: center;
 }
 
-#contact .contact-email a,
-#contact .contact-twitter a {
+#mint .contact-email a,
+#mint .contact-twitter a {
   color: white !important;
   font-size: 32px;
 }
@@ -263,6 +263,52 @@ Custom CSS For @media Mobile Class Alterations
   #home .main-labyrinthine-text {
     margin-right: -183px;
   }
+}
+
+.main-menu.sm.sm-clean li:last-child a {
+  padding-right: 0;
+}
+
+.mint-wrapper {
+  padding-bottom: 0px !important;
+}
+
+#mint .mint-description {
+  font-size: 24px;
+}
+
+#about .member-info {
+  background-color: #000000bb;
+  padding: 30px;
+  border-radius: 30px / 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+#about .member.member-left {
+  display: flex;
+  justify-content: center;
+  margin: 135px 0px;
+}
+
+#millstones .milestone-text.text-header {
+  text-align: center;
+}
+
+.reward-subtitle {
+  text-align: center;
+  font-size: 24px;
+  color: #c3b135;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.milestone-text.subtext {
+  text-align: center;
 }
 
 /*winner*/
@@ -382,10 +428,10 @@ Custom CSS For @media Mobile Class Alterations
 }
 
 .tiles {
-  background-image: url("assets/images/contact-back.jpg");
-  background-repeat: no-repeat;
+  /* background-image: url("assets/images/contact-back.jpg"); */
+  /* background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
 }
 
 .teamTop {
@@ -626,9 +672,9 @@ margin-top: 100px;
     margin-top: 80px;
   }
 
-  #millstones {
+  /* #millstones {
     background-image: url("https://leapn.life/images/roadmap_mobile.png");
-  }
+  } */
 }
 
 /* ===================================
@@ -742,14 +788,14 @@ body pre {
 }
 
 .header-logo img {
-  width: 350px;
+  width: 500px;
   height: 35px;
 }
 
 .menu-holder {
   float: right;
   max-width: 85%;
-  padding-right: 70px;
+  padding-right: 0px;
 }
 
 .toggle-holder {
@@ -998,30 +1044,35 @@ body .sm-clean .mintButton:hover {
   background-color: #000;
 }
 
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 320px;
+  top: 0;
+  height: 61px;
+  background: url(assets/images/Untitled-2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+}
+
 .page-title-holder {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #c3b135;
+  background-color: transparent;
+
   width: 285px;
   display: inline-block;
   z-index: 98;
-  height: 130px;
+  height: 73px;
 }
 
 .page-title-holder:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 130px 60px 0 0;
-  border-color: #c3b135 transparent transparent transparent;
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: translateX(100%);
+  border-width: 0;
 }
-
 .section h3.entry-title {
   font-size: 34px;
   line-height: 149%;
@@ -1532,7 +1583,8 @@ a.button-dot:hover:before {
   display: flex;
 }
 
-#home > .video-wrapper {
+#home > .video-wrapper,
+#about > .video-wrapper {
   position: absolute;
   background: black;
   display: flex;
@@ -1548,7 +1600,6 @@ a.button-dot:hover:before {
 }
 
 #home .section-wrapper {
-  position: absolute;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -2029,7 +2080,11 @@ h1.big-text {
 
 .member {
   text-align: center;
-  margin: 70px 0;
+  margin: 35px 0;
+}
+
+#team .member:first-child {
+  margin-top: 130px;
 }
 
 .member img {
@@ -2046,7 +2101,7 @@ h1.big-text {
 }
 
 .member-info {
-  width: 60%;
+  width: 81%;
   background-color: #000000bb;
   padding: 65px 110px;
   display: inline-block;
@@ -2083,13 +2138,13 @@ h1.big-text {
 }
 
 .member-name {
-  font-size: 36px;
-  font-weight: 700;
   color: #000;
   line-height: 150%;
-  margin-bottom: 35px;
-  margin-top: -5px;
   padding: 0;
+  font-size: 24px;
+  font-weight: 300;
+  color: #c3b135;
+  margin: 0 !important;
 }
 
 .member-name b {
@@ -2207,8 +2262,9 @@ h1.big-text {
 #millstones {
   background-image: url(assets/images/roadmap-back.png);
   background-color: #000000;
-  background-position: left bottom;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 ul.milestones-holder {
@@ -2219,9 +2275,9 @@ ul.milestones-holder {
 
 div.milestone {
   margin-bottom: 30px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .milestone .milestone-title {
@@ -2237,12 +2293,13 @@ div.milestone {
 
 .milestone .milestone-text i {
   color: #c1bcbc;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 1300px) {
-  #millstones .section-wrapper .content-wrapper .col-md-6:first-child {
+  /* #millstones .section-wrapper .content-wrapper .col-md-6:first-child {
     padding-top: 200px;
-  }
+  } */
 }
 
 li.milestone:nth-child(2n) {
@@ -3386,9 +3443,9 @@ footer .footer-social-divider:before {
     padding: 0px 0 30px 0;
   }
 
-  .page-title-holder:after {
+  /* .page-title-holder:after {
     border-width: 100px 60px 0 0;
-  }
+  } */
 
   .blog-item-holder h2.entry-title {
     font-size: 34px;
