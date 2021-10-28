@@ -273,59 +273,61 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="milestone"
-                                    style="background: #000000BB; padding: 20px;border-radius: 30px / 30px;">
-                                    <div>
-                                        <div class="milestone-info-right">
-                                            <h3 class="milestone-title">Member Rewards</h3>
-                                            <div>
-                                                <h2 class="reward-subtitle">Genesis Masks</h2>
-                                                <div class="row">
-                                                    <div class="col-md-3"></div>
-                                                    <div class="col-md-9">
-                                                        <p class="milestone-text">
-                                                            <i class="fa fa-circle"></i> Membership Cards Airdrop<br>
-                                                            <i class="fa fa-circle"></i> Each mask unlocks a fully coustomizable space. There will be no separate land sale,<br>
-                                                            &nbsp;&nbsp;&nbsp;&nbsp;you must own a genesis mask to claim one.<br>
-                                                        </p>
+                                <div class="col-md-12">
+                                    <div class="milestone"
+                                        style="background: #000000BB; padding: 20px;border-radius: 30px / 30px;">
+                                        <div>
+                                            <div class="milestone-info-right">
+                                                <h3 class="milestone-title">Member Rewards</h3>
+                                                <div>
+                                                    <h2 class="reward-subtitle">Genesis Masks</h2>
+                                                    <div class="row">
+                                                        <div class="col-md-3"></div>
+                                                        <div class="col-md-9">
+                                                            <p class="milestone-text">
+                                                                <i class="fa fa-circle"></i> Membership Cards Airdrop<br>
+                                                                <i class="fa fa-circle"></i> Each mask unlocks a fully coustomizable space. There will be no separate land sale,<br>
+                                                                &nbsp;&nbsp;&nbsp;&nbsp;you must own a genesis mask to claim one.<br>
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="milestone-info-right">
-                                            <h2 class="reward-subtitle">Cards</h2>
-                                            <div class="row">
-                                                <div class="col-md-3">
-                                                    <p class="milestone-text subtext"><b>White tier</b></p>
+                                            <div class="milestone-info-right">
+                                                <h2 class="reward-subtitle">Cards</h2>
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <p class="milestone-text subtext"><b>White tier</b></p>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <p class="milestone-text">
+                                                            <i class="fa fa-circle"></i> Acess to private alpha<br>
+                                                            <i class="fa fa-circle"></i> 1% change of winning one limited artwork if playing/attending (total 100)<br>
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                                <div class="col-md-9">
-                                                    <p class="milestone-text">
-                                                        <i class="fa fa-circle"></i> Acess to private alpha<br>
-                                                        <i class="fa fa-circle"></i> 1% change of winning one limited artwork if playing/attending (total 100)<br>
-                                                    </p>
+                                                <div class="row" style="margin-top:20px">
+                                                    <div class="col-md-3">
+                                                        <p class="milestone-text subtext"><b>Silver tier</b></p>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <p class="milestone-text">
+                                                            <i class="fa fa-circle"></i> 5.25% chance of winning a limited artwork if playing/attending (100 total)<br>
+                                                            <i class="fa fa-circle"></i> 0.5 - 1% royalties from sales in the labyrinth during the public alpha (after which royalities<br>
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;will go to black tier cards<br>
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="row" style="margin-top:20px">
-                                                <div class="col-md-3">
-                                                    <p class="milestone-text subtext"><b>Silver tier</b></p>
-                                                </div>
-                                                <div class="col-md-9">
-                                                    <p class="milestone-text">
-                                                        <i class="fa fa-circle"></i> 5.25% chance of winning a limited artwork if playing/attending (100 total)<br>
-                                                        <i class="fa fa-circle"></i> 0.5 - 1% royalties from sales in the labyrinth during the public alpha (after which royalities<br>
-                                                        &nbsp;&nbsp;&nbsp;&nbsp;will go to black tier cards<br>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="row" style="margin-top:20px">
-                                                <div class="col-md-3">
-                                                    <p class="milestone-text subtext"><b>Black tier</b></p>
-                                                </div>
-                                                <div class="col-md-9">
-                                                    <p class="milestone-text">
-                                                        <i class="fa fa-circle"></i> 10% chance of 1 artwork of your choice<br>
-                                                        <i class="fa fa-circle"></i> 0.5 - 1% Lifetime royalties from scale in the labyrinth<br>
-                                                    </p>
+                                                <div class="row" style="margin-top:20px">
+                                                    <div class="col-md-3">
+                                                        <p class="milestone-text subtext"><b>Black tier</b></p>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <p class="milestone-text">
+                                                            <i class="fa fa-circle"></i> 10% chance of 1 artwork of your choice<br>
+                                                            <i class="fa fa-circle"></i> 0.5 - 1% Lifetime royalties from scale in the labyrinth<br>
+                                                        </p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -345,59 +347,81 @@
                 </div>
                 <div class="section-wrapper block center-relative teamTop" style="padding-top: 0px; margin-top: 0px;">
                     <div class="content-wrapper">
-                        <div class="member member-left team-top">
-                            <img src="{{asset('assets/images/avatar-1.png')}}" data-threshold="0 0" data-jarallax-element="60 0" style="height: 230px; width: 230px; border-radius: 200px / 200px; margin-right: 90px; margin-left: 20px;" alt="" loading="lazy" />
-                            <div class="member-info-team" style="padding-bottom: 20px; margin-bottom: 10px; background-color: transparent;">
-                                <p class="member-postition">FOUNDER</p>
-                                <h5 class="member-name" style="color: white">Cergat Bos</h5>
-                                <div class="member-content" style="color: white">
-                                    <br>
-                                    <a href="https://twitter.com/EmptyCobwebs" target="_blank">
-                                        <span class="fa"><img id="social1" src="{{asset('assets/images/twitter.png')}}" style="width: 30px; height: 30px; border-radius: 0px / 0px;" alt="" loading="lazy"></img></span>
-                                    </a>
+                        <div class="member">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="{{asset('assets/images/avatar-1.png')}}" data-threshold="0 0" data-jarallax-element="60 0" alt="" loading="lazy" />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="member-info-team">
+                                        <p class="member-postition">FOUNDER</p>
+                                        <h5 class="member-name" style="color: white">Cergat Bos</h5>
+                                        <div class="member-content" style="color: white">
+                                            <br>
+                                            <a href="https://twitter.com/EmptyCobwebs" target="_blank">
+                                                <span class="fa"><img id="social1" src="{{asset('assets/images/twitter.png')}}" style="width: 30px; height: 30px; border-radius: 0px / 0px;" alt="" loading="lazy"></img></span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <br>
-                        <div class="member big-screen member-right">
-                            <div class="member-info-team" style="padding-bottom: 20px; margin-bottom: 10px; background-color: transparent;">
-                                <p class="member-postition">CREATIVE MANAGER</p>
-                                <h5 class="member-name" style="color: white">Elytron Frass</h5>
-                                <div class="member-content">
-                                    <br>
-                                    <a href="https://twitter.com/Elytron_Frass" target="_blank">
-                                        <span class="fa"><img id="social2" src="{{asset('assets/images/twitter.png')}}" style="width: 30px; height: 30px; border-radius: 0px / 0px;" alt="" loading="lazy"></img></span>
-                                    </a>
+                        <div class="member member-right-image">
+                            <div class="row">
+                                <div class="col-md-6 col-md-push-6">
+                                <img class="image-right" src="{{asset('assets/images/avatar-2.png')}}" alt="" loading="lazy"/>
                                 </div>
-                            </div>
-                            <img class="image-right" style="border-radius: 300px / 300px; height: 300px; width: 300px;" src="{{asset('assets/images/avatar-2.png')}}" alt="" loading="lazy"/>
-                        </div>
-                        <br>
-                        <div class="member member-left">
-                            <img src="{{asset('assets/images/avatar-3.png')}}" style="border-radius: 200px / 200px; margin-right: 90px; height: 300px; width: 300px;" alt="" data-threshold="0 0" data-jarallax-element="60 0" loading="lazy"/>
-                            <div class="member-info-team" style="padding-bottom: 20px; margin-bottom: 10px; background-color: transparent;">
-                                <p class="member-postition">CHRACTER DESIGNER</p>
-                                <h5 class="member-name" style="color: white">cr24ti7e</h5>
-                                <div class="member-content" style="color: white">
-                                    <br>
-                                    <a href="https://twitter.com/cr24ti7e " target="_blank">
-                                        <span class="fa"><img id="social3" src="{{asset('assets/images/twitter.png')}}" style="width: 30px; height: 30px; border-radius: 0px / 0px;" alt="" loading="lazy"></img></span>
-                                    </a>
+                                <div class="col-md-6 col-md-pull-6">
+                                    <div class="member-info-team">
+                                        <p class="member-postition">CREATIVE MANAGER</p>
+                                        <h5 class="member-name" style="color: white">Elytron Frass</h5>
+                                        <div class="member-content">
+                                            <br>
+                                            <a href="https://twitter.com/Elytron_Frass" target="_blank">
+                                                <span class="fa"><img id="social2" src="{{asset('assets/images/twitter.png')}}" style="width: 30px; height: 30px; border-radius: 0px / 0px;" alt="" loading="lazy"></img></span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="member big-screen member-right">
-                            <div class="member-info-team" style="padding-bottom: 20px; margin-bottom: 10px; background-color: transparent;">
-                                <p class="member-postition">DEVELOPER</p>
-                                <h5 class="member-name" style="color: white">Minoru Aoki</h5>
-                                <div class="member-content">
-                                    <br>
-                                    <a href="https://twitter.com/cr24ti7e " target="_blank">
-                                        <span class="fa"><img id="social2" src="{{asset('assets/images/twitter.png')}}" style="width: 30px; height: 30px; border-radius: 0px / 0px;" alt="" loading="lazy"></img></span>
-                                    </a>
+                        <div class="member">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="{{asset('assets/images/avatar-3.png')}}" alt="" data-threshold="0 0" data-jarallax-element="60 0" loading="lazy"/>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="member-info-team">
+                                        <p class="member-postition">CHRACTER DESIGNER</p>
+                                        <h5 class="member-name" style="color: white">cr24ti7e</h5>
+                                        <div class="member-content" style="color: white">
+                                            <br>
+                                            <a href="https://twitter.com/cr24ti7e " target="_blank">
+                                                <span class="fa"><img id="social3" src="{{asset('assets/images/twitter.png')}}" style="width: 30px; height: 30px; border-radius: 0px / 0px;" alt="" loading="lazy"></img></span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <img class="image-right" style="border-radius: 300px / 300px; height: 230px; width: 230px;" src="{{asset('assets/images/avatar-4.jpg')}}" alt="" loading="lazy"/>
+                        </div>
+                        <div class="member member-right-image">
+                            <div class="row">
+                                <div class="col-md-6 col-md-push-6">
+                                    <img src="{{asset('assets/images/avatar-4.jpg')}}" class="image-right" alt="" loading="lazy"/>
+                                </div>
+                                <div class="col-md-6 col-md-pull-6">
+                                    <div class="member-info-team" style="">
+                                        <p class="member-postition">DEVELOPER</p>
+                                        <h5 class="member-name" style="color: white">Minoru Aoki</h5>
+                                        <div class="member-content">
+                                            <br>
+                                            <a href="https://twitter.com/cr24ti7e " target="_blank">
+                                                <span class="fa"><img id="social2" src="{{asset('assets/images/twitter.png')}}" style="width: 30px; height: 30px; border-radius: 0px / 0px;" alt="" loading="lazy"></img></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -412,7 +436,7 @@
                         MINT
                     </h3>
                 </div>
-                <div class="section-wrapper block content-1170 center-relative own mint-wrapper">
+                <div class="section-wrapper block center-relative own mint-wrapper">
                     <div class="own">
                         <div class="one_half ">
                             <div class="one" data-threshold="0 0" data-jarallax-element="0 40">
@@ -513,8 +537,17 @@
         </footer>
     </div>
     <!--Load JavaScript-->
+    <script src="{{asset('/js/jquery.js')}}"></script>
+    <script src="{{asset('/js/jquery.sticky.js')}}"></script>
+    <script src="{{asset('/js/tipper.js')}}"></script>
+    <script src="{{asset('/js/imagesloaded.pkgd.js')}}"></script>
+    <script src="{{asset('/js/jquery.fitvids.js')}}"></script>
+    <script src="{{asset('/js/jquery.smartmenus.min.js')}}"></script>
+    <script src="{{asset('/js/jquery.sticky-kit.min.js')}}"></script>
+    
     <script src="{{asset('/js/jarallax.js')}}"></script>
     <script src="{{asset('/js/jarallax-element.min.js')}}"></script>
+    <script src="{{asset('/js/main.js')}}"></script>
     <script defer src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
     <script src="/js/metamask-onboarding.bundle.js" defer></script>
     <script src="/js/minting.js" defer></script>
